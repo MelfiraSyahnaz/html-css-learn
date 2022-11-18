@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+      background-image: url(images/bg.png);
+      font-family: "Montserrat", Helvetica, sans-serif;
+      margin: 0; 
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+li, a, button{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #edf0f1;
+      text-decoration: none;
+  } 
+  header{
+      display: flex;
+      justify-content: space-between;
+      /* justify-content: flex-end; */
+      align-items: center;
+      padding: 30px 5%;
+  }
+/* .containerHeader{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 20px 10%;
+} */
+.logo{
+      height: 70px;
+      width: 70px;
+      cursor: pointer;
+      margin-right: auto;
+}
+.navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+.nav_links{
+      list-style:none;
+      padding: 0px;
+}
+.nav_links ul{
+    padding: 0%;
+}
+.nav_links li{
+      display: inline-block;
+      padding: 20px 20px;
+}
+.nav_links li a{
+      transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+      color: #204e9a;
+}
+/* .fa fa-search{
+      padding: 0%;
+      margin: 0;
+} */
+.search{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 10%;
+}
+.signup button{
+      padding: 5px 10px ;
+      border-radius: 20px;
+      background-image:linear-gradient(50deg,#2c20af, #7920af 100%);
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      font-size: 15px;
+}
+.subtitle1{
+      font-family: 'Montserrat-semi-bold', sans-serif;
+      font-size: 15px;
+      color: #cecece45 ;
+      text-align: center;
+      margin-top: 0;
+}
+.h1{
+      font-family: 'Montserrat-bold', sans-serif;
+      font-size: 50px;
+      color: #cecece;
+      text-align: center;
+}
+
+main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5% 10%;
+}
+.buttonmain button{
+      margin-top: 20px;
+      padding: 11px 20px ;
+      border-radius: 20px;
+      border: #cecece 2px solid;
+      color: black;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+}
+.buttonmain button:hover{
+      background-color: linear-gradient(50deg,#2c20af, #7920af 100%);
+      color: #cecece;
+}
+hr{
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* CAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRDDDDDDDDDDDDDDDDDDDDDDDDD */
+.containercard{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+    } 
+    .card{
+      width: 200px;
+      height: 230px;
+      border-radius: 15px;
+      box-shadow:2px  5px 12px rgba(134, 230, 65, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      margin: 30px;
+      margin-top: 5px;
+      padding-top: 5px;
+      transition: transform 0.5s;
+    }
+    h5{
+      font-family: 'Montserrat-bold', sans-serif;
+      font-size: 15px;
+      color: #cecece;
+      text-align: center;
+      align-items: baseline;
+    }
+    .card1{
+      background-image: url(images/1.jpg);
+      background-size: cover;
+    }
+    .card2{
+      background-image: url(images/2.jpg);
+      background-size: cover;
+    }
+    .card3{
+      background-image: url(images/3.jpg);
+      background-size: cover;
+    }
+    .card4{
+      background-image: url(images/4.jpg);
+      background-size: cover;
+    }
+    .card5{
+      background-image: url(images/5.jpg);
+      background-size: cover;
+    }
+    .card :hover{
+      transform: translateY(-10px);
+    }
+
+.containerSponsor{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.sponsor{
+      display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 50px;
+margin-top: 3%;
+gap: 51px;
+width: 1115.04px;
+height: 40px;
+left: 82px;
+top: 1256px;
+}
+
+.partner{
+      font-size: 25px;
+      padding-top: 20px;
+      color: #cecece;
+      text-align: center;
+      font-family:'Montserrat-semi-bold', sans-serif;
+}
+
+.row{
+      display: flex;
+      height:88%;
+      align-items: flex-end;
+      margin-top: 5%;
+}
+.col1{
+      flex-basis: 50%;
+      text-align: left;
+      margin-left: 10%;
+      margin-top: 0%;
+}
+.cing{
+      color: white;
+      font-family: 'PT Sans', sans-serif;
+      margin: 0%;
+}
+.eth{
+      color: rgb(180, 52, 212);
+      font-family: 'PT Sans', sans-serif;
+      margin-bottom: 30px;
+      margin-top: 0%;
+}
+
+.abt{
+      color: rgb(149, 149, 149);
+      font-family: 'PT Sans', sans-serif;
+      text-align: left;
+      padding-bottom: 20%;
+}
+.bid{
+      width: 300px;
+      height: 350px;
+      border-radius: 15px;
+      box-shadow:2px  5px 7px rgba(255, 255, 255, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      margin: 30px;
+      margin-left: 50px;
+      padding-top: 5px;
+      transition: transform 0.5s;
+      background-image: url(images/Colin\ Ozawa\ \(@ozawa_colin\)\ _\ Twitter.png);
+      background-size: cover;
+    }
+.col{
+      margin-left: 20%;
+}
+.dollar{
+      color: white;
+      font-family: 'PT Sans', sans-serif;
+      margin-top: 1px;
+}
+
+
+.ftrd{
+      display: flex;
+      justify-content: space-between;
+      /* justify-content: flex-end; */
+      align-items: center;
+      padding-top: 100px;
+      padding-left: 7%;
+      padding-right: 7%;
+}
+.ftrd2{
+      font-family: 'PT Sans', sans-serif;
+      font-size: 15px;
+      color: #cecece;
+}
+.see_link ul{
+      padding: 0%;
+  }
+  .see_link li{
+        display: inline-block;
+        padding: 20px 20px;
+  }
+  .see_link li a{
+        transition: all 0.3s ease 0s;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+  }
+  .see_link li a:hover{
+        color: #89a6d4;
+  }
+
+  /* ..........................................ARTWORK................................... */
+
+  .containerbox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 50px;
+    } 
+    .box{
+      width: 200px;
+      height: 230px;
+      border-radius: 15px;
+      box-shadow:2px  5px 12px rgba(134, 230, 65, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      margin: 30px;
+      margin-top: 5px;
+      padding-top: 5px;
+      transition: transform 0.5s;
+    }
+    h4{
+      font-family: 'Montserrat-bold', sans-serif;
+      font-size: 15px;
+      color: #cecece;
+      text-align: center;
+    }
+    p{
+      padding-bottom: 10px;
+      font-family:'PT Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: #cecece;
+      text-align: center;
+      margin: 0%;
+    }
+    .box1{
+      background-image: url(images/artwork/a.png);
+      background-size: cover;
+    }
+    .box2{
+      background-image: url(images/artwork/b.png);
+      background-size: cover;
+    }
+    .box3{
+      background-image: url(images/artwork/c.jpg);
+      background-size: cover;
+    }
+    .box4{
+      background-image: url(images/artwork/d.jpg);
+      background-size: cover;
+    }
+    .box5{
+      background-image: url(images/artwork/e.jpg);
+      background-size: cover;
+    }
+    .box6{
+      background-image: url(images/artwork/f.jpg);
+      background-position: 50%;
+      background-size: cover;
+    }
+    .box :hover{
+      transform: translateY(-10px);
+    }
+
+
+/* ..........................................footer................................... */
+.footer-basic {
+      padding:30px 0;
+      background: color #0f0f0f;;
+      color:#4b4c4d;
+    }
+    .footer-basic .social {
+      text-align:center;
+      padding-bottom:25px;
+    }
+    
+    .footer-basic .social > a {
+      font-size:24px;
+      width:40px;
+      height:40px;
+      line-height:40px;
+      display:inline-block;
+      text-align:center;
+      border-radius:50%;
+      border:1px solid #ccc;
+      margin:0 8px;
+      color:inherit;
+      opacity:0.75;
+    }
+    
+    .footer-basic .social > a:hover {
+      opacity:0.9;
+    }
+    
+    .footer-basic .copyright {
+      margin-top:15px;
+      text-align:center;
+      font-size:13px;
+      color:#aaa;
+      margin-bottom:0;
+    }
+    
